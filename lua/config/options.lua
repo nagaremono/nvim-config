@@ -7,3 +7,9 @@ vim.g.maplocalleader = ","
 
 -- vim.opt.relativenumber = false
 vim.g.root_spec = { "cwd" }
+
+vim.g.python3_host_prog = "~/.pyenv/shims/python3"
+-- LSP Server to use for Python.
+-- Set to "basedpyright" to use basedpyright instead of pyright.
+vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.lazyvim_python_ruff = "ruff"

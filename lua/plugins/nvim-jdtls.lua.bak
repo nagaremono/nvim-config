@@ -1,7 +1,7 @@
-return {
-  "mfussenegger/nvim-jdtls",
-  opts = {
-     cmd = {"/usr/local/bin/jdtls"},
-     root_dir = vim.fs.dirname(vim.fs.find({"gradlew", ".git", "mvnw"}, { upward = true })[1]),
-  }
-}
+-- return {
+--   "mfussenegger/nvim-jdtls",
+--   opts = {
+--      cmd = {"/usr/local/bin/jdtls"},
+--      root_dir = vim.fs.dirname(vim.fs.find({"gradlew", ".git", "mvnw"}, { upward = true })[1]),
+--   }
+-- }
