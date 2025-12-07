@@ -20,4 +20,4 @@ end
 map("i", "jk", "<esc>", { remap = false, desc = "Switch to Normal Mode" })
 
 -- Save file
-map({ "i", "v", "n", "s" }, "<leader>w", "<cmd>w<cr><esc>", { desc = "Save file" })
+-- map({ "i", "v", "n", "s" }, "<leader>w", "<cmd>w<cr><esc>", { desc = "Save file" })
