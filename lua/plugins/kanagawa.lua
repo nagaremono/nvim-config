@@ -45,16 +45,16 @@ return {
           TelescopePreviewBorder = { bg = theme.ui.bg_dim, fg = theme.ui.bg_dim },
 
           -- Dark completion for popups
-          Pmenu = { fg = theme.ui.shade0, bg = theme.ui.bg_p1 }, -- add `blend = vim.o.pumblend` to enable transparency
+          Pmenu = { fg = theme.ui.shade0, bg = theme.ui.bg_p1, blend = vim.o.pumblend },
           PmenuSel = { fg = "NONE", bg = theme.ui.bg_p2 },
           PmenuSbar = { bg = theme.ui.bg_m1 },
           PmenuThumb = { bg = theme.ui.bg_p2 },
 
           -- Styles for diagnostic messages
-          -- DiagnosticVirtualTextHint = makeDiagnosticColor(theme.diag.hint),
-          -- DiagnosticVirtualTextInfo = makeDiagnosticColor(theme.diag.info),
-          -- DiagnosticVirtualTextWarn = makeDiagnosticColor(theme.diag.warning),
-          -- DiagnosticVirtualTextError = makeDiagnosticColor(theme.diag.error),
+          DiagnosticVirtualTextHint = makeDiagnosticColor(theme.diag.hint),
+          DiagnosticVirtualTextInfo = makeDiagnosticColor(theme.diag.info),
+          DiagnosticVirtualTextWarn = makeDiagnosticColor(theme.diag.warning),
+          DiagnosticVirtualTextError = makeDiagnosticColor(theme.diag.error),
         }
       end,
       colors = {
@@ -66,12 +66,6 @@ return {
           },
         },
       },
-    },
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "kanagawa",
     },
   },
 }
