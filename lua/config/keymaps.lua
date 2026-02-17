@@ -19,5 +19,8 @@ end
 -- Switch from Insert to Normal Mode
 map("i", "jk", "<esc>", { remap = false, desc = "Switch to Normal Mode" })
 
+map("n", "<leader>o", "<cmd>Oil --float<cr>", { desc = "Open Oil in floating window" })
+
 -- Save file
 -- map({ "i", "v", "n", "s" }, "<leader>w", "<cmd>w<cr><esc>", { desc = "Save file" })
+-- vim.keymap.del("n", "<leader>e")
